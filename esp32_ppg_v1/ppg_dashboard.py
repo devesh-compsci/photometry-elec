@@ -38,7 +38,7 @@ from PyQt5.QtGui import QColor, QPalette
 def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument("--port", type=int,   default=5005)
-    p.add_argument("--fs",   type=int,   default=100,
+    p.add_argument("--fs",   type=int,   default=200,
                    help="Sample rate in Hz — must match firmware SAMPLE_RATE")
     p.add_argument("--window", type=int, default=10,
                    help="Waveform display window in seconds")
